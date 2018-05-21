@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6f9ff">
+
+
+    <RelativeLayout
+        android:background="@drawable/input_circle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+
+
+
+        <TextView
+            android:textSize="10dp"
+            android:alpha="0.6"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Firstname"
+            android:textColor="#0089b3"
+            android:id="@+id/textView1" />
+
+        <EditText
+            android:textColor="#747474"
+            android:id="@+id/set_firstnametext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="7dp"
+            android:background="@android:color/transparent"
+            android:textColorLink="#c748b4" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:background="@drawable/input_circle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+
+
+
+        <TextView
+            android:textSize="10dp"
+            android:alpha="0.6"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lastname"
+            android:textColor="#0089b3"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:textColor="#747474"
+            android:id="@+id/set_lastnametext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="7dp"
+            android:background="@android:color/transparent"
+            android:textColorLink="#c748b4" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/input_circle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+
+
+
+        <TextView
+            android:textSize="10dp"
+            android:alpha="0.6"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textColor="#0089b3"
+            android:id="@+id/textView3" />
+
+        <EditText
+            android:inputType="number"
+            android:textColor="#747474"
+            android:id="@+id/set_agetext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="7dp"
+            android:background="@android:color/transparent"
+            android:textColorLink="#c748b4" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/input_circle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp">
+
+
+
+        <TextView
+            android:textSize="10dp"
+            android:alpha="0.6"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Department ID"
+            android:textColor="#0089b3"
+            android:id="@+id/textView4" />
+
+        <EditText
+            android:textColor="#747474"
+            android:id="@+id/set_depttext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="7dp"
+            android:background="@android:color/transparent"
+            android:textColorLink="#c748b4" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:alpha="0.0"
+        android:id="@+id/warn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/passwordid"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:background="@drawable/yo">
+
+
+
+        <TextView
+            android:fontFamily="sans-serif-thin"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:id="@+id/warningtext"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valid Department IDs are: 123, 234, 345"
+            android:textColor="#ff3300"
+            android:layout_gravity="center_vertical|center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:clickable="true"
+        android:id="@+id/submitt"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/nothaveaccount"
+        android:background="@drawable/submit_buttton"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SUBMIT"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
