@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private SectionsPagerAdapter mSectionsPagerAdapter;
     private ViewPager mViewPager;
 
+    
     FragmentForm mFragmentForm;
     FragmentDatabase mFragmentDatabase;
     FragmentDatabase2 mFragmentDatabase2;
